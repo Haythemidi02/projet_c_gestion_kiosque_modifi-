@@ -62,8 +62,8 @@ void afficher_caissier(FILE*);
 ///////////////////////////////////////////////////////////////
 //CAISSIER
 int verify_caissier(FILE*);
-float calacul(int service,FILE*,FILE*,FILE*);
 void traitement_paiment(float m,float argent);
+void calacul(int service,FILE*,FILE*,FILE*);
 //LAVAGE
 ////////////////////////////////////////////////////////////////
 void ajouter_lavage(char ch[10],int x,FILE*);
